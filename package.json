@@ -1,0 +1,18 @@
+{
+  "name": "stackoverflow_code_coverage_experiment",
+  "version": "1.0.0",
+  "description": "Experiment to demonstrate how coding style affects code coverage results",
+  "license": "ISC",
+  "author": "Jared Toporek",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-jest": "^30.0.4",
+    "jest": "^30.0.4"
+  }
+}
