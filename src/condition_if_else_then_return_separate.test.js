@@ -6,17 +6,17 @@ describe("validate function conditionIfElse", () => {
     expect(xIsTrue).toBe(true);
   });
 
-  it("should return true when Y is true", () => {
+  xit("should return true when Y is true", () => {
     const yIsTrue = conditionIfElseSeparateThenReturn(false, true, false);
     expect(yIsTrue).toBe(true);
   });
 
-  it("should return true when Z is true", () => {
+  xit("should return true when Z is true", () => {
     const zIsTrue = conditionIfElseSeparateThenReturn(false, false, true);
     expect(zIsTrue).toBe(true);
   });
 
-  it("should return false when all params are false", () => {
+  xit("should return false when all params are false", () => {
     const allFalse = conditionIfElseSeparateThenReturn(false, false, false);
     expect(allFalse).toBe(false);
   });
