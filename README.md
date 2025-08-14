@@ -64,7 +64,7 @@ The more verbose/explicit the code is however, the more informative and accurate
 | condition_switch_grouped.js               | <span style="color:green">100</span> | <span style="color:green">100</span> | <span style="color:green">100</span> | <span style="color:green">100</span> |
 | condition_switch_separate.js              | <span style="color:green">100</span> | <span style="color:green">100</span> | <span style="color:green">100</span> | <span style="color:green">100</span> |
 
-### Here are the code coverage stats forthe variation with the most compelling results, branch 5
+### Here are the code coverage stats forthe variation with the most compelling results, branch `experiment_05_disable_all_tests_except_z_is_true`
 
 | File                                      | % Stmts                                 | % Branch                                | % Funcs                              | % Lines                                 | Uncovered Line #s                      |
 | ----------------------------------------- | --------------------------------------- | --------------------------------------- | ------------------------------------ | --------------------------------------- | -------------------------------------- |
