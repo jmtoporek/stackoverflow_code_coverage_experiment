@@ -76,6 +76,6 @@ The more verbose/explicit the code is however, the more informative and accurate
 | condition_switch_grouped.js               | <span style="color:yellow">75</span>    | <span style="color:red">25</span>       | <span style="color:green">100</span> | <span style="color:yellow">75</span>    | <span style="color:red">8 </span>      |
 | condition_switch_separate.js              | <span style="color:yellow">50</span>    | <span style="color:red">25</span>       | <span style="color:green">100</span> | <span style="color:yellow">50</span>    | <span style="color:red">4-6,10</span>  |
 
-Take note of how the more concise code, in the file condition_control.js file has 100% code coverage despite 3 out of 4 tests have been disabled. That would indicate that the more concise your code is the easier it is to get an inflated code coverage score with sub standard test coverage.
+Take note of how the more concise code, in the condition_control.js file, has 100% code coverage despite 3 out of 4 tests having been disabled. That would indicate that the more concise your code is, the easier it is to get an inflated code coverage score with sub standard test coverage.
 
 On the other hand all the other coding style variations do a better job indicating the code coverage requires additional tests.
