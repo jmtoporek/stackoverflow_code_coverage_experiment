@@ -37,8 +37,8 @@ The branches for this repo are designed to demonstrate what happens to code cove
 1. All tests cases are executed
 1. Disable test for all parameters are false
 1. Disable tests for Y and Z are true
-1. Disable all tests except X are true
-1. Disable all tests except Z are true
+1. Disable all tests except X is true
+1. Disable all tests except Z is true
 
 When you change branches and execute the tests you can see how each file with a different style of coding affects the accuracy of code coverage metrics. The more concise coding styles code coverate metrics are more likely to give false impression of good code coverage, as they are closer to 100% even with test cases missing.
 
