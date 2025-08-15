@@ -47,8 +47,8 @@ The following list are the branches and their corresponding test scenario;
 1. experiment_01_all_tests_active - All tests cases are executed
 1. experiment_02_disable_all_false - Disable test for all parameters are false
 1. experiment_03_disable_y_and_z_are_true - Disable tests for Y and Z are true
-1. experiment_04_all_tests_except_x_is_true - Disable all tests except X are true
-1. experiment_05_disable_all_tests_except_z_is_true - Disable all tests except Z are true
+1. experiment_04_all_tests_except_x_is_true - Disable all tests except X is true
+1. experiment_05_disable_all_tests_except_z_is_true - Disable all tests except Z is true
 
 The more verbose/explicit the code is however, the more informative and accurate the code coverage metrics are, and the harder it is to fool the coverage tool.
 
